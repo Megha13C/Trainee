@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [data provider]">
+  <test thread-count="5" name="data prov by excelsheet(failed)">
+    <classes>
+      <class name="dataprov.TimeReduction">
+        <methods>
+          <include name="main" invocation-numbers="0 1 2 3"/>
+          <include name="urllaunch"/>
+          <include name="closeurl"/>
+        </methods>
+      </class> <!-- dataprov.TimeReduction -->
+    </classes>
+  </test> <!-- data prov by excelsheet(failed) -->
+</suite> <!-- Failed suite [data provider] -->
