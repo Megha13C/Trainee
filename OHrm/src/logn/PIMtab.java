@@ -52,12 +52,7 @@ public class PIMtab {
     
     Select select2=new Select(EnterPIMdata.subunit);
     select2.selectByIndex(2);
-    EnterPIMdata.subunit.click();
-    
-    
-    
-    
-    
+    EnterPIMdata.subunit.click();   
     
 }
 }
