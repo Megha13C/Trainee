@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demo site testcase" duration-ms="14186" started-at="2020-04-04T19:29:43 IST" finished-at="2020-04-04T19:29:57 IST">
+    <groups>
+    </groups>
+    <test name="guru99" duration-ms="14186" started-at="2020-04-04T19:29:43 IST" finished-at="2020-04-04T19:29:57 IST">
+      <class name="payment.PaymentFGateway">
+        <test-method status="PASS" signature="main()[pri:0, instance:payment.PaymentFGateway@6536e911]" name="main" is-config="true" duration-ms="8417" started-at="2020-04-04T19:29:34 IST" finished-at="2020-04-04T19:29:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="paymenttab()[pri:0, instance:payment.PaymentFGateway@6536e911]" name="paymenttab" duration-ms="14130" started-at="2020-04-04T19:29:43 IST" finished-at="2020-04-04T19:29:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymenttab -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:payment.PaymentFGateway@6536e911]" name="quit" is-config="true" duration-ms="701" started-at="2020-04-04T19:29:57 IST" finished-at="2020-04-04T19:29:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- payment.PaymentFGateway -->
+    </test> <!-- guru99 -->
+  </suite> <!-- demo site testcase -->
+</testng-results>
