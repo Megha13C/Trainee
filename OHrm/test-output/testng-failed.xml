@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="logn.PIMtab">
+      <class name="logn.SignIn">
         <methods>
           <include name="main"/>
         </methods>
-      </class> <!-- logn.PIMtab -->
+      </class> <!-- logn.SignIn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
