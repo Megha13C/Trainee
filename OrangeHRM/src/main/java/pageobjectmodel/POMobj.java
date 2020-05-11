@@ -307,7 +307,13 @@ public class POMobj {
     @FindBy(xpath="//*[@id=\"backButton\"]")
     public static WebElement LT_cancel;
     
-    @FindBy(xpath="//*[@id=\"btnDelete\"]")
+    @FindBy(xpath="//*[@id=\"ohrmList_chkSelectRecord_1\"]")
+    public static WebElement LT_deltitem;
+
+    @FindBy(xpath="//*[@id=\"deleteConfModal\"]/div[3]/input[2]")
+    public static WebElement LTdelt_cancel;
+    
+    @FindBy(id="btnDelete")
     public static WebElement LT_delete;
     
     

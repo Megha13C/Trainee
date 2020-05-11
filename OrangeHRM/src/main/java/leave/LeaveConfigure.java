@@ -30,10 +30,10 @@ public class LeaveConfigure {
 		   POMobj.Leave.click();
 		   POMobj.Leave_config.click();
 		   POMobj.Leave_period.click();
-		   POMobj.L_edit.click();
+		  // POMobj.L_edit.click();
 		   
 		   Select month=new Select(POMobj.L_startmonth);
-		   month.selectByVisibleText("July");
+		   month.selectByVisibleText("August");
 		   POMobj.L_startmonth.click();
 		  
 		   Select date=new Select(POMobj.L_startdate);
@@ -46,10 +46,14 @@ public class LeaveConfigure {
 		   
 		   POMobj.Leavetype.click();
 		   POMobj.LT_add.click();
-		   POMobj.LT_name.sendKeys("SickLeave");
+		   POMobj.LT_name.sendKeys("VacyLeave");
 		   
 		   //POMobj.LT_cancel.click();
 		   POMobj.LT_save.click();
+		   POMobj.Leave_config.click();
+		   POMobj.Leavetype.click();
+		   POMobj.LT_deltitem.click();
 		   POMobj.LT_delete.click();
+		   POMobj.LTdelt_cancel.click();
 }
 	}
